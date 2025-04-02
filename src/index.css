@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import "./font/stylesheet.css";
+
+/*内容定位滑动样式*/
+* {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-primary: #f0291d;
+  --color-primary-light: #ff770f ;
+  --color-secondary: #efefef;
+  --color-gray: #444444;
+  --color-gray_light: rgb(254, 254, 254);
+  --font-futura_maxi_bold: "Futura Maxi CG Bold";
+  --font-futura_maxi_demi: "Futura Maxi Demi";
+  --font-futura_maxi_book: "Futura Maxi Book";
+  --font-harmonyos_sans_sc_black: "HarmonyOS Sans SC Black";
+  --font-harmonyos_sans_sc_medium: "HarmonyOS Sans SC Medium";
+  --font-harmonyos_sans_sc: "HarmonyOS Sans SC";
+  --font-bhnschrift: "Bahnschrift"
+}
+@layer utilities {
+  .c-space {
+    @apply px-5;
+  }
+  .head-text {
+    @apply text-5xl text-black font-futura_maxi_demi;
+  }
+  .head-semi-text {
+    @apply text-4xl font-harmonyos_sans_sc_medium bg-clip-text text-transparent bg-linear-to-r from-primary via-stone-950 to-black;
+  }
+  .desc-text {
+    @apply text-lg font-harmonyos_sans_sc font-thin text-gray
+  }
+  .content-text {
+    @apply text-3xl font-harmonyos_sans_sc_black text-primary;
+  }
+  .nav-ul {
+    @apply flex items-center gap-4 md:gap-6 relative z-20;
+  }
+  .line {
+    @apply w-full h-0 border-b-1 border-gray-200 rounded-2xl;
+  }
+  .footer {
+    @apply w-full h-full p-5 px-10;
+  }
+  .footer-title {
+    @apply font-black text-lg text-gray;
+  }
+}

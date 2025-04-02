@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Futura Maxi CG Bold";
+    src: url("https://db.onlinewebfonts.com/t/88978184a438c2447fe0faa001f15a34.eot");
+    src: url("https://db.onlinewebfonts.com/t/88978184a438c2447fe0faa001f15a34.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/88978184a438c2447fe0faa001f15a34.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/88978184a438c2447fe0faa001f15a34.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/88978184a438c2447fe0faa001f15a34.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/88978184a438c2447fe0faa001f15a34.svg#Futura Maxi CG Bold")format("svg");
+}
+@font-face {
+    font-family: "Futura Maxi Demi";
+    font-weight: 700;
+    src: url("https://db.onlinewebfonts.com/t/3cea3100a8ffe636a888aef6f318d5fe.eot");
+    src: url("https://db.onlinewebfonts.com/t/3cea3100a8ffe636a888aef6f318d5fe.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3cea3100a8ffe636a888aef6f318d5fe.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3cea3100a8ffe636a888aef6f318d5fe.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3cea3100a8ffe636a888aef6f318d5fe.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3cea3100a8ffe636a888aef6f318d5fe.svg#Futura Maxi W00 Demi")format("svg");
+}
+@font-face {
+    font-family: "Futura Maxi Book";
+    src: url("https://db.onlinewebfonts.com/t/87e702dd36f168ae79fe7264b682d666.eot");
+    src: url("https://db.onlinewebfonts.com/t/87e702dd36f168ae79fe7264b682d666.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/87e702dd36f168ae79fe7264b682d666.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/87e702dd36f168ae79fe7264b682d666.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/87e702dd36f168ae79fe7264b682d666.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/87e702dd36f168ae79fe7264b682d666.svg#Futura Maxi W00 Book")format("svg");
+}
+@font-face {
+    font-family: "HarmonyOS Sans SC Medium";
+    src: url("https://db.onlinewebfonts.com/t/9579f4c0f85bf98cd3b6ddf546e89d5d.eot");
+    src: url("https://db.onlinewebfonts.com/t/9579f4c0f85bf98cd3b6ddf546e89d5d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/9579f4c0f85bf98cd3b6ddf546e89d5d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/9579f4c0f85bf98cd3b6ddf546e89d5d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/9579f4c0f85bf98cd3b6ddf546e89d5d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/9579f4c0f85bf98cd3b6ddf546e89d5d.svg#HarmonyOS Sans SC Medium")format("svg");
+}
+
+@font-face {
+    font-family: "HarmonyOS Sans SC";
+    src: url("https://db.onlinewebfonts.com/t/243710884e5ebac408cd10a7a89fcc96.eot");
+    src: url("https://db.onlinewebfonts.com/t/243710884e5ebac408cd10a7a89fcc96.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/243710884e5ebac408cd10a7a89fcc96.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/243710884e5ebac408cd10a7a89fcc96.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/243710884e5ebac408cd10a7a89fcc96.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/243710884e5ebac408cd10a7a89fcc96.svg#HarmonyOS Sans SC")format("svg");
+}
+@font-face {
+    font-family: "Bahnschrift";
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: extra-condensed;
+    src: url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.eot");
+    src: url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.svg#Bahnschrift")format("svg");
+}
+
+@font-face {
+    font-family: "HarmonyOS Sans SC Black";
+    font-weight: 700;
+    src: url("https://db.onlinewebfonts.com/t/66fc73fdbf29a35eca9d16f4c016884a.eot");
+    src: url("https://db.onlinewebfonts.com/t/66fc73fdbf29a35eca9d16f4c016884a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/66fc73fdbf29a35eca9d16f4c016884a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/66fc73fdbf29a35eca9d16f4c016884a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/66fc73fdbf29a35eca9d16f4c016884a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/66fc73fdbf29a35eca9d16f4c016884a.svg#HarmonyOS Sans SC Black")format("svg");
+}
