@@ -2,6 +2,8 @@
  * Case images Frame
  */
 import React, {Fragment} from 'react'
+import {LazyLoadImage} from "react-lazy-load-image-component";
+
 
 const FrameThree = ({title, ...props}) => {
     return (
@@ -22,9 +24,12 @@ const FrameThree = ({title, ...props}) => {
                   </div>
               </div>
               <div className={"flex flex-1/5 flex-nowrap justify-between items-center w-full gap-2 mt-10"}>
-                  {props.caseImages.map((caseImage, index) => <div key={index} className="flex-1"><img src={caseImage}
-                                                                                                       alt="caseImage"
-                                                                                                       className="w-full rounded-md"/>
+                  {props.caseImages.map((caseImage, index) => <div key={index} className="flex-1">
+                    <LazyLoadImage
+                      src={caseImage}
+                      alt={`case${caseImage}`}
+                      className="w-full rounded-md"
+                    />
                   </div>)}
               </div>
           </div>

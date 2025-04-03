@@ -1,4 +1,5 @@
 import React from 'react'
+import {LazyLoadImage} from "react-lazy-load-image-component";
 
 const Home = () => {
     return (
@@ -8,7 +9,11 @@ const Home = () => {
           <p>IS RIGHT IN FRONT OF YOU</p>
         </div>
         <div className="absolute h-[80%] overflow-hidden -bottom-1 right-10 -z-1">
-          <img src={"/image/home-bg.png"} alt="bgImage" className="object-contain"/>
+          <LazyLoadImage
+            src={"/image/home-bg.png"}
+            alt="bgImage"
+            className="object-contain"
+          />
         </div>
         <div className="line inline-block absolute bottom-0 left-0 w-[90%]"/>
       </section>

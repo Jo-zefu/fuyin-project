@@ -1,7 +1,8 @@
 /**
  * Case Description Frame
  */
-import React, {Fragment} from 'react'
+import React, {Fragment} from 'react';
+import {LazyLoadImage} from "react-lazy-load-image-component";
 
 const FrameTwo = ({title, ...props}) => {
     return (
@@ -13,7 +14,11 @@ const FrameTwo = ({title, ...props}) => {
                 className="flex-2/5 h-[372px] flex justify-center items-center flex-nowrap  bg-white border-1 rounded-lg border-primary">
                   <div
                     className="bg-gray_light flex items-center justify-center w-[150px] h-[150px] border-1 border-[#efefef] rounded-md p-1 ">
-                      <img src={props.image} alt={props.imageName} className="w-full"/>
+                    <LazyLoadImage
+                      src={props.image}
+                      alt={props.imageName}
+                      className="w-full"
+                    />
                   </div>
               </div>
               <div className="flex flex-col flex-3/4">
@@ -22,7 +27,12 @@ const FrameTwo = ({title, ...props}) => {
                           <div className="content-text">#1 TOP Seller</div>
                           <div className="font-harmonyos_sans_sc text-xl text-gray">{props.location}</div>
                       </div>
-                      <img src="/image/up_arrow.png" alt="arrow" className="w-9 h-9" />
+                      <LazyLoadImage
+                        src={"/image/up_arrow.png"}
+                        alt="arrow"
+                        className="w-9 h-9"
+                      />
+                      {/*<img src="/image/up_arrow.png" alt="arrow" className="w-9 h-9" loading="lazy" />*/}
                   </div>
                   <div
                     className="flex gap-3 justify-start items-center bg-linear-to-r from-primary-light to-primary text-white px-2 py-4 rounded-sm my-10 mb-6">

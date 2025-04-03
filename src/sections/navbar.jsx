@@ -1,5 +1,7 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import NavItems from "./navItems.jsx";
+
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +16,12 @@ function Navbar() {
                         href="/"
                         rel="noreferrer"
                     >
-                        <img src="/logo.png" alt="Logo" className="h-10 w-12" />
+                        <LazyLoadImage
+                          src={"/logo.png"}
+                          alt="Logo"
+                          width={48}
+                          height={40}
+                        />
                     </a>
                     <nav>
                         <NavItems/>
