@@ -32,7 +32,6 @@ const FrameTwo = ({title, ...props}) => {
                         alt="arrow"
                         className="w-9 h-9"
                       />
-                      {/*<img src="/image/up_arrow.png" alt="arrow" className="w-9 h-9" loading="lazy" />*/}
                   </div>
                   <div
                     className="flex gap-3 justify-start items-center bg-linear-to-r from-primary-light to-primary text-white px-2 py-4 rounded-sm my-10 mb-6">
@@ -47,6 +46,7 @@ const FrameTwo = ({title, ...props}) => {
                   </div>
               </div>
           </div>
+          {props.rate && <img src={props.rate} alt="rate" className="w-full h-full object-contain mt-3" /> }
           <div className="line inline-block my-30"/>
       </Fragment>
     )

@@ -4,7 +4,7 @@
 /*内容定位滑动样式*/
 * {
   scroll-behavior: smooth;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-out;
 }
 
 @theme {
@@ -39,6 +39,9 @@
   }
   .nav-ul {
     @apply flex items-center gap-4 md:gap-6 relative z-20;
+  }
+  .nav-button {
+    @apply inline-flex items-center px-4 py-2.5 border border-black text-base font-medium rounded-md text-white bg-black hover:bg-white hover:text-black transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white w-32 justify-center
   }
   .line {
     @apply w-full h-0 border-b-1 border-gray-200 rounded-2xl;

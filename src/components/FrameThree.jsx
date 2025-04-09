@@ -12,11 +12,6 @@ const FrameThree = ({title, ...props}) => {
               <div className="flex justify-between items-end">
                 <div className="flex justify-between items-end w-full">
                   <div className="head-text">{title}</div>
-                  <div className="flex items-center justify-center gap-5 text-sm w-[350px]">
-                    <div className="flex-1 text-gray text-right">{props.typeText}</div>
-                    <div className="flex-1 line w-[50px]" />
-                    <div className="flex-2 text-gray">"Explosive video cases"</div>
-                  </div>
                 </div>
                 <div className="flex items-center gap-1">
                       <div>{props.apptitle}</div>

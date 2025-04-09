@@ -10,8 +10,6 @@ const Contact = () => {
                 </div>
                 <div className="font-futura_maxi_demi text-7xl bg-linear-to-r text-transparent bg-clip-text from-[rgb(255,118,15)] to-[rgb(240,41,29)]">Contact Us</div>
             </div>
-
-
         </section>
     )
 }
