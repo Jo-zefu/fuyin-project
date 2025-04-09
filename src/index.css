@@ -32,7 +32,7 @@
     @apply text-4xl font-harmonyos_sans_sc_medium bg-clip-text text-transparent bg-linear-to-r from-primary via-stone-950 to-black;
   }
   .desc-text {
-    @apply text-lg font-harmonyos_sans_sc font-thin text-gray
+    @apply text-lg font-harmonyos_sans_sc font-thin text-gray;
   }
   .content-text {
     @apply text-3xl font-harmonyos_sans_sc_black text-primary;
@@ -51,5 +51,8 @@
   }
   .footer-title {
     @apply font-black text-lg text-gray;
+  }
+  .footer-p {
+    @apply max-w-4/5;
   }
 }

@@ -21,7 +21,7 @@ const FrameOne = ({title,semiTitle, ...props}) => {
                             <div className="flex flex-col w-full" key={index}>
                                 <div className="flex justify-between items-end gap-2 ">
                                     <div className="digital">{statistic.number}</div>
-                                    <div className="desc-text text-md text-right">{statistic.unit}</div>
+                                    <div className="desc-text text-md text-right max-w-[180px]">{statistic.unit}</div>
                                 </div>
                                 <div className="line"/>
                             </div>
