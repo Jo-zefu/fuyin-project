@@ -60,7 +60,7 @@
     @apply w-full h-0 border-b-1 border-gray-200 rounded-2xl;
   }
   .digital {
-    @apply text-6xl font-bhnschrift text-primary tracking-tight text-left scale-x-70 scale-y-110 origin-left
+    @apply text-6xl max-sm:text-5xl font-bhnschrift text-primary tracking-tight text-left scale-x-70 scale-y-110 origin-left
   }
   .footer {
     @apply w-full h-full p-5 px-10 max-sm:p-2 max-sm:px-3;

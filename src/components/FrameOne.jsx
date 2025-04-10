@@ -22,9 +22,9 @@ const FrameOne = ({title,semiTitle, ...props}) => {
                     {
                         props.statistics.map((statistic, index) => (
                             <div className="flex flex-col w-full" key={index}>
-                                <div className="flex justify-between items-end px-2 ">
+                                <div className="flex flex-row justify-between items-end px-2 ">
                                     <div className="digital">{statistic.number}</div>
-                                    <div className="desc-text text-md text-right max-sm:max-w-[160px] max-w-[180px]">{statistic.unit}</div>
+                                    <div className="desc-text text-md text-right max-sm:max-w-[120px] max-w-[180px]">{statistic.unit}</div>
                                 </div>
                                 <div className="line"/>
                             </div>

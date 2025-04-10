@@ -35,7 +35,7 @@ const FrameTwo = ({title, ...props}) => {
                       />
                   </div>
                   <div
-                    className="flex gap-3 justify-start items-center bg-linear-to-r from-primary-light to-primary text-white px-2 py-4 rounded-sm max-sm:my-5 max-sm:mb-3 my-10 mb-6">
+                    className="flex flex-row gap-3 justify-start items-center bg-linear-to-r from-primary-light to-primary text-white px-2 py-4 rounded-sm max-sm:my-5 max-sm:mb-3 my-10 mb-6">
                       <div className="w-0 h-5 border-l-2 border-white rounded-xl"></div>
                       <div className="text-xl max-sm:text-lg font-harmonyos_sans_sc">{props.caseText}</div>
                   </div>
