@@ -12,17 +12,17 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <main className="max-w-7xl mx-auto">
-      <div className="max-sm:px-0 max-xl:px-5">
-        <Navbar/>
-        <Home/>
-        <About/>
-        <Overview/>
-        <CaseList/>
-        <Contact/>
-      </div>
+    <>
+      <main className="max-w-7xl mx-auto max-sm:px-0 max-xl:px-5">
+          <Navbar/>
+          <Home/>
+          <About/>
+          <Overview/>
+          <CaseList/>
+          <Contact/>
+      </main>
       <Footer/>
-    </main>
+    </>
   )
 }
 
