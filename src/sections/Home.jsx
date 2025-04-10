@@ -5,7 +5,8 @@ import Button from "../components/Button.js";
 
 const Home = () => {
     return (
-      <section className="relative flex items-start justify-center c-space p-20 pt-15 my-30 h-[600px] overflow-hidden" id="home">
+      // relative flex items-start justify-center c-space p-20 pt-15 my-30 min-h-screen overflow-hidden
+      <section className="min-h-screen w-full flex flex-col max-sm:items-center max-sm:justify-center relative py-10 md:pt-50 overflow-hidden" id="home">
         <div className="flex flex-col justify-start items-center gap-6 text-center">
           <h2 className="text-5xl md:text-6xl font-bold text-center">Only for Building Category TOP1</h2>
           <p className="text-xl md:text-2xl max-w-3xl text-center">We only collaborate with brands that have the potential to become category leaders. Our sole focus is on creator-driven content marketing.
@@ -14,7 +15,7 @@ const Home = () => {
           <p className="text-center">If you want to be TOP1 in your category</p>
           <Button text={"Contact Us"} customerClass={"!py-3 !w-48"} />
         </div>
-        <div className="absolute h-[78%] overflow-hidden -bottom-1 right-10 -z-1">
+        <div className="absolute max-sm:w-full md:h-[65%] overflow-hidden -bottom-1 -right-20 md:right-10 -z-1 max-sm:scale-110 max-sm:origin-bottom">
           <LazyLoadImage
             src={"/image/home-bg.png"}
             alt="bgImage"

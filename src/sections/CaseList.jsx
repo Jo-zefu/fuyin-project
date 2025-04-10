@@ -5,7 +5,7 @@ import FrameThree from "../components/FrameThree.jsx";
 
 const CaseList = () => {
     return (
-        <section className="c-space" id="case">
+        <section id="case">
             {
                 caseList.map((caseItem) => {
                     // change imageList to [[], ...]
@@ -21,9 +21,14 @@ const CaseList = () => {
                     }
                     return (
                         <div key={caseItem.id}>
-                            <FrameTwo title={caseItem.title} {...caseItem} />
-                            {result.map((arrItem,index) => <FrameThree title={caseItem.title} typeText={caseItem.successCase.typeText} caseImages={arrItem} key={index}/>)}
-                        </div>
+                            <div className="section-container"><FrameTwo title={caseItem.title} {...caseItem} /></div>
+                            {
+                                result.map((arrItem,index) =>
+                                  <div className="relative py-20">
+                                      <FrameThree
+                                        title={caseItem.title} typeText={caseItem.successCase.typeText} caseImages={arrItem} key={index}/>
+                                  </div>)}
+                            </div>
                 )})
             }
         </section>)
