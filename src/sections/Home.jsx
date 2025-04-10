@@ -5,7 +5,7 @@ import Button from "../components/Button.js";
 
 const Home = () => {
     return (
-      <section className="min-h-screen w-full flex flex-col max-sm:items-center max-sm:justify-center relative py-10 md:pt-50 overflow-hidden max-sm:px-3" id="home">
+      <section className="min-h-screen w-full flex flex-col max-sm:items-center max-sm:justify-center relative py-10 md:pt-50 overflow-hidden max-sm:px-1" id="home">
         <div className="flex flex-col justify-start items-center gap-6 text-center">
           <h2 className="text-5xl md:text-6xl font-bold text-center">Only for Building Category TOP1</h2>
           <p className="text-xl md:text-2xl max-w-3xl text-center">We only collaborate with brands that have the potential to become category leaders. Our sole focus is on creator-driven content marketing.
