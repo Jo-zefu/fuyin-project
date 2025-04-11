@@ -1,8 +1,8 @@
 {
-  "name": "fuyin_agency",
-  "homepage": "https://www.vitewebjs.com/",
+  "name": "FUYIN Marketing",
+  "homepage": "https://www.fuyinmarketing.com/",
   "private": true,
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "scripts": {
     "dev": "vite",
