@@ -14,7 +14,7 @@ const Home = () => {
           <p className="text-center">If you want to be TOP1 in your category</p>
           <Button text={"Contact Us"} customerClass={"!py-3 !w-48"} />
         </div>
-        <div className="absolute max-sm:w-full md:h-[65%] overflow-hidden -bottom-1 -right-20 md:right-10 -z-1 max-sm:scale-110 max-sm:origin-bottom">
+        <div className="absolute max-sm:w-full md:h-[65%] overflow-hidden -bottom-1 right-0 md:right-10 -z-1 max-sm:scale-110 max-sm:origin-bottom">
           <LazyLoadImage
             src={"/image/home-bg.png"}
             alt="bgImage"
