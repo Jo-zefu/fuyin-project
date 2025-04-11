@@ -53,9 +53,8 @@
     @apply inline-flex items-center px-4 py-2.5 border border-black text-base font-medium rounded-md text-white bg-black hover:bg-white hover:text-black transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white w-32 justify-center
   }
   .nav-sidebar {
-    @apply absolute left-0 right-0 bg-stone-200 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
+    @apply absolute left-0 right-0 bg-white backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
   }
-
   .line {
     @apply w-full h-0 border-b-1 border-gray-200 rounded-2xl;
   }
